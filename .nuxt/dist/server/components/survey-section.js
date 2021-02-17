@@ -368,12 +368,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/survey-section.vue?vue&type=template&id=25cfc6b2&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<div class=\"card__line\">","</div>",[_vm._ssrNode("<span class=\"card__title\">"+_vm._ssrEscape(_vm._s(_vm.data.name))+"</span> "),_c('Dropdown',{attrs:{"data":_vm.cardTypes,"id":_vm.index,"activeItem":_vm.data.type,"onClick":_vm.changeCardType}})],2),_vm._ssrNode(" "),_vm._ssrNode("<ul class=\"card__fields\">","</ul>",_vm._l((_vm.data.fields),function(field,field_id){return _vm._ssrNode("<li class=\"card__line\">","</li>",[_c('Field',{attrs:{"data":field,"id":_vm.index,"field_id":field_id,"field_type":_vm.data.type}})],1)}),0),_vm._ssrNode(" "+((_vm.data.fieldType)?("<button class=\"card__add\">"+_vm._ssrEscape("\n    + Добавить "+_vm._s(_vm.data.type.toLowerCase())+"\n  ")+"</button>"):"<!---->")+" <button class=\"delete\">Удалить условие</button>")],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/survey-section.vue?vue&type=template&id=0e62415a&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"card"},[_vm._ssrNode("<div class=\"card__line\">","</div>",[_vm._ssrNode("<span class=\"card__title\">"+_vm._ssrEscape(_vm._s(_vm.data.name))+"</span> "),_c('Dropdown',{attrs:{"data":_vm.cardTypes,"id":_vm.index,"activeItem":_vm.data.type,"onClick":_vm.changeCardType}})],2),_vm._ssrNode(" "),_vm._ssrNode("<ul class=\"card__fields\">","</ul>",_vm._l((_vm.data.fields),function(field,field_id){return _vm._ssrNode("<li class=\"card__line\">","</li>",[_c('Field',{attrs:{"data":field,"id":_vm.index,"field_id":field_id,"field_type":_vm.data.type}})],1)}),0),_vm._ssrNode(" "+((_vm.data.fieldType)?("<button class=\"card__add\">"+_vm._ssrEscape("\n    + Добавить "+_vm._s(_vm.data.type.toLowerCase())+"\n  ")+"</button>"):"<!---->")+" <button class=\"delete\">Удалить условие</button>")],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/survey-section.vue?vue&type=template&id=25cfc6b2&
+// CONCATENATED MODULE: ./components/survey-section.vue?vue&type=template&id=0e62415a&
 
 // EXTERNAL MODULE: external "vuex"
 var external_vuex_ = __webpack_require__(3);

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="card">
     <div class="card__line">
       <span class="card__title">{{ data.name }}</span>
       <Dropdown

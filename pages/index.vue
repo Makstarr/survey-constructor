@@ -2,7 +2,7 @@
   <div class="container">
     <h1 class="survey-h1">Добавить опрос</h1>
     <div class="survey-cards">
-      <div class="card" v-for="(card, index) of cards" :key="index">
+      <div v-for="(card, index) of cards" :key="index">
         <SurveySection v-if="card" :data="card" :index="index" />
       </div>
     </div>
