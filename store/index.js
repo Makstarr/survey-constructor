@@ -1,11 +1,15 @@
+import myState from './state'
+import myMutations from './mutations'
+import myActions from './actions'
 
-import state from './state'
-import mutations from './mutations'
-import actions from './actions'
+export const state = () => ({
+  myState
+})
 
+export const mutations = {
+  myMutations,
+}
 
-export default{
-  state,
-  mutations,
-  actions,
+export const actions = {
+  myActions,
 }

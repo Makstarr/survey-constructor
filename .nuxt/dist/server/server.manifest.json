@@ -1,0 +1,19 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/dropdown.js": "components/dropdown.js",
+    "components/field.js": "components/field.js",
+    "components/survey-section.js": "components/survey-section.js",
+    "pages/index.js": "pages/index.js",
+    "pages/survey.js": "pages/survey.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/dropdown.js": "components/dropdown.js.map",
+    "components/field.js": "components/field.js.map",
+    "components/survey-section.js": "components/survey-section.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/survey.js": "pages/survey.js.map",
+    "server.js": "server.js.map"
+  }
+}

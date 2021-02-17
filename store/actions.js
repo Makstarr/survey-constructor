@@ -2,9 +2,11 @@ const changeCardType = ({
   commit,
   state
 }, payload) => {
-  commit("changeCardType", payload)
+
+  console.log("change")
+  commit("CHANGE_CARD_TYPE", payload)
 }
-const ADD_FIELD = ({
+const addField = ({
   commit,
   state
 }, payload) => {
@@ -42,7 +44,7 @@ const deleteCard = ({
 
 export default {
   changeCardType,
-  ADD_FIELD,
+  addField,
   changeCardFieldActive,
   updateFieldRange,
   addCard,

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "survey",
+    "path": "/survey",
+    "component": "/Users/maks/Git/survey-constructor/pages/survey.vue",
+    "chunkName": "pages/survey",
+    "_name": "_6f26cc96"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/maks/Git/survey-constructor/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_536f8147"
+  }
+]
